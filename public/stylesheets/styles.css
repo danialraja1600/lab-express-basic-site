@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff8400;
+    border: 4px solid #1500ff;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bolder;
+    align-items: center;
+    background-color: #ff8400;
+    border: 4px solid #1500ff;
+}
+
+.info-container {
+    display: flex;
+    height: 50vh;
+    background-color: #a8a8a8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
